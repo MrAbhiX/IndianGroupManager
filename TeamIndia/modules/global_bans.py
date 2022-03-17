@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import .sql.global_bans_sql as sql
+import TeamIndia.modules.sql.global_bans_sql as sql
 from .sql.users_sql import get_user_com_chats
 from TeamIndia import (
     DEV_USERS,
