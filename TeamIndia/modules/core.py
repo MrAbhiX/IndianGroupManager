@@ -1,5 +1,5 @@
-from lunaBot import telethn as tbot
-from lunaBot.events import register
+from TeamIndia import telethn as tbot
+from TeamIndia.events import register
 import os
 import asyncio
 import os
