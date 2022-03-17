@@ -13,8 +13,8 @@ import speedtest
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from pyrogram.types import Message
 
-from Teamindia import aiohttpsession as aiosession
-from Teamindia.utils.http import get, post
+from TeamIndia import aiohttpsession as aiosession
+from TeamIndia.utils.http import get, post
 
 
 def generate_captcha():
