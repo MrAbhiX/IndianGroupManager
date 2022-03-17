@@ -2,7 +2,7 @@ import time
 from telethon import events
 
 from TeamIndia import telethn
-from .helper_funcs.telethn.chatstatus import (
+from .helper_funcs.telethn.chat_status import (
     can_delete_messages,
     user_is_admin,
 )
