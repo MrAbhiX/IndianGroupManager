@@ -3,7 +3,7 @@ from .disable import DisableAbleCommandHandler
 from TeamIndia import dispatcher, DRAGONS
 from .helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, CallbackQueryHandler, Filters, run_async
-import .sql.approve_sql as sql
+import TeamIndia.modules.sql.approve_sql as sql
 from .helper_funcs.chat_status import user_admin
 from .log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
