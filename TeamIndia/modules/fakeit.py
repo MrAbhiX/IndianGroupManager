@@ -41,11 +41,11 @@ async def _(event):
         url = "https://thispersondoesnotexist.com/image"
         response = requests.get(url)
         if response.status_code == 200:
-            with open("luna.jpg", "wb") as f:
+            with open("indian.jpg", "wb") as f:
                 f.write(response.content)
 
-        captin = f"Fake Image powered by @SiderzChat."
+        captin = f"Fake Image powered by @IndianSupportGroup."
         fole = "luna.jpg"
         await tbot.send_file(event.chat_id, fole, caption=captin)
         await event.delete()
-        os.system("rm ./luna.jpg ")
+        os.system("rm ./indian.jpg ")
