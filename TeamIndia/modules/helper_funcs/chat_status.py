@@ -402,6 +402,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from lunaBot.modules import connection
+from TeamIndia.modules import connection
 
 connected = connection.connected
