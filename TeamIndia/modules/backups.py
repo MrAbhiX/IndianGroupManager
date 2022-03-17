@@ -15,12 +15,12 @@ from .helper_funcs.alternate import typing_action
 import .sql.rules_sql as rulessql
 
 # from .sql import warns_sql as warnssql
-import .sql.blacklist_sql as blacklistsql
+import TeamIndia.modules.sql.blacklist_sql as blacklistsql
 from .sql import disable_sql as disabledsql
 
 # from .sql import cust_filters_sql as filtersql
 # import .sql.welcome_sql as welcsql
-import .sql.locks_sql as locksql
+import TeamIndia.modules.sql.locks_sql as locksql
 from .connection import connected
 
 
