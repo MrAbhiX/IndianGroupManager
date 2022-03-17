@@ -106,8 +106,8 @@ These commands do not require you to be admin of a federation. These commands ar
             ),
         )
         
-fed_admin_callback_handler = CallbackQueryHandler(india_fed_admin_callback, pattern=r"indiafedadmin_", run_async=True)
+fed_admin_callback_handler = CallbackQueryHandler(india_fed_admin_callback, pattern=r"indiafedadmin_")
 
-fed_owner_callback_handler = CallbackQueryHandler(india_fed_owner_callback, pattern=r"indiafedowner_", run_async=True)
+fed_owner_callback_handler = CallbackQueryHandler(india_fed_owner_callback, pattern=r"indiafedowner_")
 
-fed_user_callback_handler = CallbackQueryHandler(india_fed_user_callback, pattern=r"indiafeduser_", run_async=True)
+fed_user_callback_handler = CallbackQueryHandler(india_fed_user_callback, pattern=r"indiafeduser_")
