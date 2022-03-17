@@ -1215,6 +1215,6 @@ __buttons__ = [InlineKeyboardButton(text="FEDERATION USER", callback_data="india
               
 ]
 
-dispatcher.add_handler(fed_callback_handler)
-dispatcher.add_handler(fed_owner_callback_handler)
 dispatcher.add_handler(fed_admin_callback_handler)
+dispatcher.add_handler(fed_owner_callback_handler)
+dispatcher.add_handler(fed_user_callback_handler)
