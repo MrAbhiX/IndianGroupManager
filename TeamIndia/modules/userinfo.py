@@ -25,7 +25,7 @@ from TeamIndia import (
     sw,
 )
 from TeamIndia.__main__ import STATS, TOKEN, USER_INFO
-import .sql.userinfo_sql as sql
+import TeamIndia.modules.sql.userinfo_sql as sql
 from .disable import DisableAbleCommandHandler
 from .sql.global_bans_sql import is_user_gbanned
 from .sql.afk_sql import is_afk, check_afk_status
