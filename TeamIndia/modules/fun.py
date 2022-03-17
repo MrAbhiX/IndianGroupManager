@@ -2,7 +2,7 @@ import html
 import random
 import time
 
-import .fun_strings as fun_strings
+import TeamIndia.modules.fun_strings as fun_strings
 from TeamIndia import dispatcher
 from .disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 from .helper_funcs.chat_status import is_user_admin
