@@ -5,7 +5,7 @@ import requests
 from PIL import Image
 from telegram import ParseMode
 from TeamIndia import dispatcher, updater
-import .sql.nsfw_sql as sql
+import TeamIndia.modules.sql.nsfw_sql as sql
 from .log_channel import gloggable
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
