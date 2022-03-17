@@ -1,7 +1,7 @@
 import html
 from typing import Optional
 
-import .sql.blsticker_sql as sql
+import TeamIndia.modules.sql.blsticker_sql as sql
 from TeamIndia import LOGGER, dispatcher
 from .connection import connected
 from .disable import DisableAbleCommandHandler
