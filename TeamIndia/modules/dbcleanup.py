@@ -1,7 +1,7 @@
 from time import sleep
 
-import .sql.global_bans_sql as gban_sql
-import .sql.users_sql as user_sql
+import TeamIndia.modules.sql.global_bans_sql as gban_sql
+import TeamIndia.modules.sql.users_sql as user_sql
 from TeamIndia import DEV_USERS, OWNER_ID, dispatcher
 from .helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
