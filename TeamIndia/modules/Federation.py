@@ -15,6 +15,7 @@ from telethon.tl.types import User
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
 from TeamIndia.events import register
+from pyrogram.types import InlineKeyboardButton
 
 async def is_admin(event, user):
     try:
