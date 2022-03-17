@@ -31,9 +31,9 @@ from TeamIndia import DEV_USERS
 from TeamIndia import LOG_GROUP_ID
 from TeamIndia import pbot as app 
 from TeamIndia.modules.memek import arq
-from TeamIndia.core.keyboard import ikb
-from TeamIndia.core.tasks import _get_tasks_text, all_tasks, rm_task
-from TeamIndia.core.types import InlineQueryResultCachedDocument
+from TeamIndia.Core.keyboard import ikb
+from TeamIndia.Core.tasks import _get_tasks_text, all_tasks, rm_task
+from TeamIndia.Core.types import InlineQueryResultCachedDocument
 from TeamIndia.modules.info import get_chat_info, get_user_info
 from TeamIndia.modules.music import download_youtube_audio
 from TeamIndia.utils.functions import test_speedtest
