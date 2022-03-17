@@ -5,7 +5,7 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import .sql.notes_sql as sql
+import TeamIndia.modules.sql.notes_sql as sql
 from TeamIndia import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
 from TeamIndia.__main__ import DATA_IMPORT
 from .helper_funcs.chat_status import user_admin
