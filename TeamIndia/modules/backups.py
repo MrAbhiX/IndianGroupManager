@@ -12,7 +12,7 @@ from .helper_funcs.chat_status import user_admin
 from .helper_funcs.alternate import typing_action
 
 # from .rules import get_rules
-import .sql.rules_sql as rulessql
+import TeamIndia.modules.sql.rules_sql as rulessql
 
 # from .sql import warns_sql as warnssql
 import TeamIndia.modules.sql.blacklist_sql as blacklistsql
