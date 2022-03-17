@@ -6,7 +6,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import .sql.blacklist_sql as sql
+import TeamIndia.modules.sql.blacklist_sql as sql
 from TeamIndia import dispatcher, LOGGER
 from .disable import DisableAbleCommandHandler
 from .helper_funcs.chat_status import user_admin, user_not_admin
