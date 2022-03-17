@@ -6,7 +6,7 @@ import time
 import uuid
 from io import BytesIO
 
-import .sql.feds_sql as sql
+import TeamIndia.modules.sql.feds_sql as sql
 from TeamIndia import (
     EVENT_LOGS,
     LOGGER,
