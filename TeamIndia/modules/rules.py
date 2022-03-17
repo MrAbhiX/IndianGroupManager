@@ -1,6 +1,6 @@
 from typing import Optional
 
-import .sql.rules_sql as sql
+import TeamIndia.modules.sql.rules_sql as sql
 from TeamIndia import dispatcher
 from .helper_funcs.chat_status import user_admin
 from .helper_funcs.string_handling import markdown_parser
