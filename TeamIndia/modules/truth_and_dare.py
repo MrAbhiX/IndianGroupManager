@@ -1,6 +1,6 @@
 import html
 import random
-import .truth_and_dare_string as truth_and_dare_string
+import TeamIndia.modules.truth_and_dare_string as truth_and_dare_string
 from TeamIndia import dispatcher
 from telegram import ParseMode, Update, Bot
 from .disable import DisableAbleCommandHandler
