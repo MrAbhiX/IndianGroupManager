@@ -3,7 +3,7 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import .sql.notes_sql as sql
+import TeamIndia.modules.sql.notes_sql as sql
 from TeamIndia import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
 from .disable import DisableAbleCommandHandler
 from .helper_funcs.handlers import MessageHandlerChecker
