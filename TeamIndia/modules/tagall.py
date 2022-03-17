@@ -6,7 +6,7 @@ from telethon import Button
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from tamIndia import telethn
+from teamIndia import telethn
 
 
 @telethn.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
