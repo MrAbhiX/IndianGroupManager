@@ -44,7 +44,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from lunaBot import pbot as luna
+from TeamIndia import pbot as luna
 
 ARQ = "https://thearq.tech/"
 
@@ -98,7 +98,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from lunaBot import pbot as ASUNA
+from TeamIndia import pbot as ASUNA
 
 ARQ = "https://thearq.tech/"
 
