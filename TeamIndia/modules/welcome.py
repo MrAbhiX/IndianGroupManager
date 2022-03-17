@@ -5,7 +5,7 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import .sql.welcome_sql as sql
+import TeamIndia.modules.sql.welcome_sql as sql
 import TeamIndia
 from TeamIndia import (
     DEV_USERS,
