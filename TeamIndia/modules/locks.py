@@ -9,7 +9,7 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import .sql.locks_sql as sql
+import TeamIndia.modules.sql.locks_sql as sql
 from TeamIndia import dispatcher, DRAGONS, LOGGER
 from .disable import DisableAbleCommandHandler
 from .helper_funcs.chat_status import (
