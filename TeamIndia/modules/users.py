@@ -11,7 +11,7 @@ from telegram.ext import (
     run_async,
 )
 
-import .sql.users_sql as sql
+import TeamIndia.modules.sql.users_sql as sql
 from TeamIndia import DEV_USERS, LOGGER, OWNER_ID, dispatcher
 from .helper_funcs.chat_status import dev_plus, sudo_plus
 from .sql.users_sql import get_all_users
