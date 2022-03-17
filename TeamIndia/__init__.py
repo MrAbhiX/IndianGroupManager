@@ -73,6 +73,8 @@ if ENV:
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
+    BOT_NAME = os.environ.get("BOT_NAME", None)
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
     DB_URI = os.environ.get("DATABASE_URL")
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     DONATION_LINK = os.environ.get("DONATION_LINK")
@@ -107,7 +109,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from lunaBot.config import Development as Config
+    from TeamIndia.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -185,9 +187,9 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1963422158)
-DEV_USERS.add(1817146787)
-DEV_USERS.add(1138045685)
+DEV_USERS.add(1145990357)
+DEV_USERS.add(5125042013)
+DEV_USERS.add(5194892889)
 
 if not SPAMWATCH_API:
     sw = None
@@ -197,7 +199,7 @@ else:
         sw = spamwatch.Client(SPAMWATCH_API)
     except:
         sw = None
-        LOGGER.warning("Can't connect to SpamWatch!")
+        LOGGER.warning("Can't connect to SpamWatch! Check Config")
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
