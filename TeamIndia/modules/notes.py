@@ -10,7 +10,7 @@ from .helper_funcs.handlers import MessageHandlerChecker
 from .helper_funcs.chat_status import user_admin, connection_status
 from .helper_funcs.misc import build_keyboard, revert_buttons
 from .helper_funcs.msg_types import get_note_type
-from \.helper_funcs.string_handling import (
+from .helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
