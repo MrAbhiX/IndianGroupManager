@@ -2,6 +2,7 @@
 Fully Written by RoseLoverX
 """
 from TeamIndia import telethn as tbot
+From TeamIndia.Callbacks.feds import *
 from TeamIndia import OWNER_ID, BOT_ID
 import os, re, csv, json, time, uuid, pytz
 from datetime import datetime
@@ -1212,3 +1213,7 @@ __button__ = [ InlineKeyboardButton(text="FED ADMIN COMMANDS", callback_data="in
 __buttons__ = [InlineKeyboardButton(text="FEDERATION USER", callback_data="indiafeduser_"), 
               
 ]
+
+dispatcher.add_handler(fed_callback_handler)
+dispatcher.add_handler(fed_owner_callback_handler)
+dispatcher.add_handler(fed_admin_callback_handler)
